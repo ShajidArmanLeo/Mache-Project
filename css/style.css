@@ -1,0 +1,499 @@
+
+	/*Author: Shajid Arman Leo;
+	mail: shajid.arman10@gmail.com;
+	Website: ;*/
+
+
+*/
+
+/*
+	====Index====
+	1.HOME
+	2.About Us
+	3.Our services
+	4.Our Prices
+	5.contact us
+	6.Footer
+*/
+
+/* Globar CSS:  */
+
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+body{
+	font-family: 'Lato', sans-serif;
+}
+
+h1{
+
+
+}
+
+h2{
+	color: white;
+}
+
+h3{
+	 font-style: italic;
+    margin: 20px 0;
+
+}
+
+h4{
+
+} 
+
+h5{
+
+}
+
+h6{
+
+}
+
+
+p{
+	color: white;
+	font-weight: light;
+}
+
+span{
+	border-bottom: 1px solid #ed145b;
+    width: 26%;
+    display: block;
+   
+}
+
+
+/*Theme css*/
+
+/*Navbar*/
+
+.navbar {
+    background: #0000005e;
+}
+
+.nav-link{
+	color: white;
+}
+
+.nav-link.js-scroll-trigger.active {
+    color: #ed145b;
+}
+
+.fa.fa-bars{
+    color: white;
+}
+
+
+/*home section*/
+
+.home{
+	background:url(../img/banner.jpg) no-repeat;
+	background-size: cover;
+	 
+}
+
+.head-content.col-md-6 {
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+    padding: 50px 0;
+    margin-top: 31px;
+}
+
+.head-content span{
+	 margin: 25px auto;
+}
+
+.head-content p{
+	    color: white;
+    font-weight: 100;
+    font-size: 11px;
+    padding-bottom: 35px;
+}
+
+.head-btn{
+	border: none;
+    padding: 5px 23px;
+    border-radius: 21px;
+    background: #ed145b;
+    color: white;
+    margin-bottom: 100px;
+}
+
+
+
+
+
+/*About Us*/
+
+.about-us {
+    background: #f4f4f4;
+    padding-top: 57px;
+    padding-bottom: 0px;
+}
+
+.about-content h3{
+	 font-style: italic;
+    margin: 20px 0;
+}
+
+
+
+.about-content p {
+    color: black;
+    font-size: 9px;
+}
+
+.about-content span{
+	margin: 15px 0;
+}
+
+.about-content a{
+	
+    color: #ed145b;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 11px;
+}
+
+
+.about-img{
+	    width: 105%;
+    margin-top: -7px;
+}
+
+
+/*Our Services*/
+
+.our-service{
+
+}
+
+.service-text{
+	    text-align: center;
+}
+
+.service-text h3{
+	ont-style: italic;
+    margin: 20px 0;
+}
+.service-text span{
+	margin: 0 auto;
+    display: block;
+
+}
+
+.service-text p{
+	 color: black;
+    font-size: 15px;
+    margin: 30px 0;
+
+}
+
+.item{
+	    text-align: center;
+}
+
+.item p{
+	    font-weight: bold;
+    color: #ed145b;
+    font-size: 11px;
+}
+
+.item img{
+		    width: 90px;
+    margin: 12px 0px;
+    padding: 0 6px;
+}
+
+
+/*------carousol-----*/
+
+
+.carousel-inner{
+	padding: 25px 0;
+	position: relative;
+}
+
+.crousol-child{
+	top: 130px;
+    position: absolute;
+    text-align: center;
+    padding: 0px 204px;
+
+}
+
+.crousol-child p{
+	color: white;
+    font-weight: light;
+    margin: 0px 0;
+    padding: 22px 0;
+}
+
+.carousel-control-prev-icon {
+    border-bottom: none;
+}
+
+.carousel-control-next-icon {
+    border-bottom: none;
+}
+
+/* Our prices*/
+
+.price {
+    padding-top: 100px;
+    background: #f4f4f4;
+    padding-bottom: 0px;
+}
+
+/*====card=====*/
+.card-head {
+    background: #5a5a5a;
+    text-align: center;
+    padding-bottom: 35px;
+    position: relative;
+    padding: 14px 0px;
+}
+
+.card-head h3 {
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    font-style: normal;
+    margin: 0px 0;
+    margin-top: 12px;
+}
+
+
+.package {
+    background: #f4f4f4;
+    position: absolute;
+    top: 86px;
+    left: 15px;
+    padding: 0px 35px;
+    display: block;
+    border-radius: 49px;
+}
+
+.package p {
+    color: black;
+    font-weight: bold;
+    font-size: 11px;
+    margin-top: 13px;
+
+}
+
+/*Cardlist*/
+
+.cards{
+    padding-bottom: 60px;
+}
+.card-list {
+    background: white;
+    padding: 30px 0;
+}
+
+.card-list ul {
+    list-style: none;
+    text-align: center;
+    padding: 0 0px;
+}
+
+.card-list li {
+    text-decoration: none;
+    font-size: 12px;
+    padding: 4px 0;
+}
+
+
+.card-btn{
+
+    background: #ed145b;
+    border: none;
+    color: white;
+    margin: 0 auto;
+    display: block;
+    padding: 7px 25px;
+    border-radius: 30px;
+    font-size: 12px;
+    font-weight: bold;
+
+}
+
+
+/*DETAILS*/
+
+
+
+.details {
+    padding: 50px 0px;
+    background: white;
+    margin: 0px 0;
+}
+
+.detail-logo img {
+    vertical-align: middle;
+    width: 40px;
+    border-style: none;
+    padding: 11px 0;
+}
+
+
+.detail-text h5 {
+    font-size: 11px;
+    font-weight: bold;
+    color: #ed145b;
+}
+
+.detail-text p {
+    color: black;
+    font-weight: light;
+    font-size: 12px;
+    padding: 0 0px;
+    margin-right: 50px;
+}
+
+
+
+/*Join Us*/
+
+.join-us{
+    background: #ed145b;
+}
+
+.join-text h4{
+    color: white;
+
+}
+
+
+
+.join-btn {
+    border: none;
+    padding: 3px 28px;
+    font-weight: bold;
+    font-size: 14px;
+    border-radius: 25px;
+    margin-top: 7px;
+    color: #ed145b;
+    background: white;
+}
+
+
+
+/*========portfolio=======*/
+
+.portfolio{
+    background:ffffff ;
+}
+
+
+
+.card-body h5{
+    font-size: 11px;
+    font-weight: bold;
+}
+
+.card-body p{
+        color: black;
+    
+    font-size: 13px;
+}
+
+.cardrow1{
+    margin-bottom: 30px;
+}
+
+.card-body {
+   
+    background: #f4f4f4;
+}
+
+
+.portfolio-btn {
+    margin: 0 auto;
+    display: block;
+    background: none;
+    border: none;
+    font-weight: bold;
+    font-size: 11px;
+    color: #ed145b;
+}
+
+
+.fa.fa-angle-down {
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+    font-weight: bold;
+    color: #ed145b;
+}
+
+
+
+.show-more{
+    background:url(../img/banner.jpg) no-repeat;
+    background-size: cover;
+    height: 420px;
+     
+}
+
+.show-more-content{
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+    padding: 50px 0;
+    margin-top: 31px;
+}
+
+.show-more-content h2{
+    font-style: italic;
+}
+
+.show-more-content span{
+     margin: 25px auto;
+}
+
+
+/*download*/
+
+.websiteimg {
+    width: 500px;
+}
+
+.down-text h4 {
+    font-style: italic;
+}
+
+.down-text  p {
+    color: black;
+    font-size: 12px;
+    margin: 30px 0;
+}
+
+.download-btn {
+    border: none;
+    background: #ed145b;
+    color: white;
+    padding: 10px 22px;
+    border-radius: 42px;
+    font-size: 10px;
+}
+
+
+
+/*footer*/
+
+footer{
+    background: #2b2b2b;
+    padding: 30px 0;
+}
+
+footer p{
+    text-align: center;
+}
